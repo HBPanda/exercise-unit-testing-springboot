@@ -1,11 +1,7 @@
 package com.exercise.unittesting.shoppingcart;
 
-import java.util.ArrayList;
-import java.util.List;
-
 import org.junit.jupiter.api.Test;
 import org.junit.jupiter.api.extension.ExtendWith;
-import org.mockito.Mockito;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.boot.test.autoconfigure.web.servlet.WebMvcTest;
 import org.springframework.boot.test.mock.mockito.MockBean;
@@ -14,12 +10,11 @@ import org.springframework.test.web.servlet.MockMvc;
 import static org.junit.Assert.*;
 
 import com.exercise.unittesting.shoppingcart.interfaces.ShoppingcartService;
-import com.exercise.unittesting.shoppingcart.models.Catalog;
 import com.exercise.unittesting.shoppingcart.models.Item;
 
 @ExtendWith(SpringExtension.class)
 @WebMvcTest
-class ToDoControllerTest {
+class ShoppingcartControllerTest {
 
     @Autowired
     MockMvc mockMvc;
