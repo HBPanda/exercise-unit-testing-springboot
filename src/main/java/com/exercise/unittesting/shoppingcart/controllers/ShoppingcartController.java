@@ -1,4 +1,4 @@
-package com.exercise.unittesting.shoppingcart;
+package com.exercise.unittesting.shoppingcart.controllers;
 
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
